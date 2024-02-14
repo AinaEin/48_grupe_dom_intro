@@ -1,5 +1,5 @@
 "use strict";
-import { sumavimas, atimtis } from './components./sum.js';
+import { sumavimas, atimtis } from './components/sum.js';
 
 console.log('Labas rytas, Lietuva!');
 
