@@ -27,8 +27,16 @@ const ingridients = [];
 //    ingridients.push(ingridientDOM.innerText);
 // }
 
-const ingridients = [...ingridientsDOM].map(
-    ingridientDOM => ingridientDOM.innerText
+const ingridient = [...ingridientsDOM].map(
+  (ingridientDOM) => ingridientDOM.innerText
 );
 
-console.log(ingridients);
+console.log(ingridient);
+
+// [...ingridientsDOM].forEach(
+//     ingridientDOM => ingridientDOM.innerText += ' (???)'
+// );
+
+for (const ingridientDOM of ingridientsDOM) {
+  ingridientDOM.innerText += " (???)";
+}
